@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"        android:layout_height="wrap_content"
+        android:text="Like"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+    />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+    />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+</LinearLayout>
+<!--
+<TextView
+//text gravity:
+android:gravity="center"
+//like Expanded 1
+android:layout_width="0dp"
+android:layout_weight="1"
+android:layout_height="wrap_content"
+-->
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_width="match_parent"-->
+<!--android:id="@+id/main"-->
+<!--android:orientation="horizontal"-->
+<!--make the LinearLayout in center :-->
+<!--android:layout_gravity="center"-->
+<!--make the content in center :-->
+<!--android:gravity="center"-->
+<!--////////////////////////////////////////////////-->
+<!--<LinearLayout-->
+<!--    android:id="@+id/main"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@color/yellow"-->
+<!--    >-->
+
+<!--    <TextView-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="hello world sksdmpsdmpodosp"-->
+<!--        android:background="@color/black"-->
+<!--        android:textSize="30sp"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:textColor="@color/title_color"-->
+<!--        />-->
+<!--    <ImageView-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:background="#B8B8B1"-->
+<!--        android:src="@drawable/ball_pic"-->
+<!--        android:scaleType="centerInside"-->
+<!--    />-->
+<!--</LinearLayout>-->
+
+
+<!--///////////////////////////////////////////////////-->
+
+
+<!--<LinearLayout-->
+<!--    android:id="@+id/main"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--&gt;-->
+<!--   <Button-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:text="Login"-->
+<!--    />-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="create new account"-->
+<!--        />-->
+<!--</LinearLayout>-->
+
+
+<!--View group = Layout :-->
+<!--1)LinearLayout (only Horizontal & Vertical)-->
+<!--2)ConstraintLayout ()-->
+<!--3)RelativeLayout-->
+
+<!--//////////////////////////////////////////////////-->
+<!--<LinearLayout-->
+<!--    android:id="@+id/main"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:orientation="horizontal"-->
+<!--&gt;-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="From"-->
+<!--    />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--    />-->
+<!--</LinearLayout>-->
+
+<!--////////////////////////////////////////////////////-->
+
+
+<!--<EditText-->
+<!--    android:id="@+id/main"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:hint="enter your phone number"-->
+<!--    android:inputType="textPassword"-->
+<!--/>-->
+<!--//////////////////////////////////////////////////////-->
+
+<!--<ImageView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="1000dp"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:background="#B8B8B1"-->
+<!--    android:src="@drawable/ball_pic"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:scaleType="centerCrop"-->
+
+<!--/>-->
+
+<!--
+<ImageView
+    android:layout_height="350dp"
+    android:layout_width="match_parent"
+    android:background="#B8B8B1"
+    android:src="@drawable/ball_pic"
+    ///////////////////////////////////////
+    // place center or some
+    android:layout_gravity=""
+    /////////////////////////////////
+    android:scaleType="centerInside"
+    1)center : little zoom
+    2)"centerCrop" more zoom
+    3)"centerInside" no zoom
+        //no more size no scale up
+-->
+<!--/////////////////////////////////////////////////////////-->
+<!--<TextView-->
+<!--    android:id="@+id/main"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="hello world sksdmpsdmpodosp"-->
+<!--    android:background="@color/yellow"-->
+<!--    android:textSize="30sp"-->
+<!--    android:fontFamily="serif"-->
+<!--    android:textColor="@color/title_color"-->
+<!--/>-->
+<!--
+    dp:
+    we use density pixel cuz using only pixel will cause problems
+    between different screens
+////////////////////////////////////////////////////////////////
+    sp:
+    scalable pixel makes text flexible with screen size user
+    paremeter for eyes
+//////////////////////////////////////////////////////////////
+<TextView
+
+    android:text // for content text
+
+    layout_width // 36..dp or wrap_content for only the widget
+                    or match_parent for double.infinity
+
+    layout_height // 36..dp or wrap_content for only the widget
+                    or match_parent for double.infinity
+
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+    android:textAppearance= for text size but we should delete
+                     android:textSize=
+
+////////////////////////////////////////////////////////////////
+-->
